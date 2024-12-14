@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stefano Perdicchia</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Stefano
+        <span>Perdicchia</span>
+      </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, it's <span>Stefano</span></h1>
+            <h3>a <span>DevOps engineer</span></h3>
+            <div class="social-icons">
+                <a href="https://github.com/TortelloSte">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/stefano-perdicchia/">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="image.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="about-img">
+            <img src="image.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>DevOps engineer with a background in Machine Learning, transitioning into DevOps to deliver
+              impactful, automated cloud solutions. With over a year of hands-on experience, I specialize in building
+              and optimizing CI/CD pipelines and deploying scalable infrastructure across AWS and Azure using
+              Terraform as Infrastructure-as-Code (IaC).</p>
+            <!--- <a href="#" class="btn">Read More</a> --->
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">
+        Projects
+      </h2>
+        <div class="services-container">
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxs-devices"></i>
+                    <h4>Mini Muuu</h4>
+                    <p>Mini Muuu è un collettivo creativo nato dalla passione per l’innovazione e il mondo digitale. Siamo un piccolo team guidato da me, dove sviluppiamo progetti su misura per conto di terzi e lavoriamo su iniziative personali, con un focus particolare nel mondo dei videogiochi.
+                        La nostra missione è combinare creatività e tecnologia per dare vita a esperienze uniche e coinvolgenti. Che si tratti di sviluppare un videogioco, realizzare un’applicazione interattiva o ideare nuovi concept, mettiamo passione, competenza e originalità in tutto ciò che facciamo.
+                        </p>
+
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Terraform-aws-custom-cluster</h4>
+                    <p>Terraform-aws-custom-cluster è una repository GitHub pubblica progettata per semplificare la creazione di cluster personalizzati utilizzando Terraform. Questo progetto offre un approccio flessibile e modulare per configurare e gestire infrastrutture scalabili che possono integrarsi senza problemi con le principali piattaforme cloud come AWS, Azure e Google Cloud.</p>
+
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code-curly"></i>
+                    <h4>This Website</h4>
+                    <p>Il sito che stai navigando è il risultato di un lavoro attento e creativo, realizzato attraverso un mix di tecnologie moderne. Ogni aspetto, dal design all'architettura backend, è stato sviluppato per offrire un’esperienza fluida e intuitiva.
+                        Scopri di più sulla repository Github dedicata.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="http://localhost:3000/send-email" method="POST">
+    <div class="input-group">
+        <div class="input-box">
+            <input type="text" name="fullName" placeholder="Full Name">
+            <input type="email" name="email" placeholder="Email">
+        </div>
+        <div class="input-box">
+            <input type="number" name="phoneNumber" placeholder="Phone Number">
+            <input type="text" name="subject" placeholder="Subject">
+        </div>
+    </div>
+    <div class="input-group-2">
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </div>
+</form>
+    </section>
+
+
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="https://github.com/TortelloSte">
+            <i class="bx bxl-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/stefano-perdicchia/">
+            <i class="bx bxl-linkedin-square"></i>
+        </a>
+      </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="about">About</a>
+            </li>
+            <li>
+                <a href="contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">© Stefano Perdicchia | All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
